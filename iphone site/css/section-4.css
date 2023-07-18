@@ -1,0 +1,42 @@
+#section-4{
+    background-color: var(--main-background);
+    display: flex;
+    flex-direction: column;
+    height: 70rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-four{
+    background-color: var(--main-bg);
+    height: 30rem;
+    width: 65rem;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.section-four:nth-child(2){
+    margin-top: 2rem;
+}
+.icon-four{
+    width: 4rem;
+    height: 6rem;
+    border-radius: 0rem;
+    margin-bottom: 1rem;
+}
+/* .icon-four:nth-child(2){
+    height: 8rem;
+} */
+.header-four{
+    font-size: 2rem;
+    color: var(--text-main);
+}
+.article-four{
+  margin-left: 14rem;
+  margin-right: 14rem;
+  font-size: 25px;
+  color: var(--secondary-color);
+}

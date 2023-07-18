@@ -1,0 +1,53 @@
+:root{
+    --main-bg: #f3f6f6;
+    --main-background: #fff;
+    --secondary-background: #d2d2d2;
+    --text-main: #1d1d1f;
+    --secondary-text: #2d2d2d;
+    --button: #0071e3;
+    --main-radius: 2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: 0;
+
+}
+button{
+    color: var(--main-background);
+    background-color: var(--button);
+    border: none;
+    height: 1.5rem;
+    width: 3rem;
+    border-radius: 30px;
+    margin: -0.3rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+   object-fit: fill;
+    border-radius: var(--main-radius);
+}
+h1{
+margin-top: 1rem;
+font-size: 60px;
+color: var(--text-main);
+font-weight: bold;
+}
+
+
+.main{
+    width: 3rem;
+    height: 3rem;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    float: right;
+    margin-top: 33rem;
+    margin-right: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

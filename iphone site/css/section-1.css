@@ -1,0 +1,101 @@
+.section-1{
+    width: 100%;
+    background-color: var(--main-bg);
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-1 .textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.section-1 .textarea h2{
+    margin-top: 3rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--text-main);
+}
+/* .section-1 .textarea h1{
+    margin-top: 1rem;
+    font-size: 60px;
+    color: var(--text-main);
+    font-weight: bold;
+} */
+.section-1 .textarea p{
+    margin-top: 1.5rem;
+    color: var(--text-main);
+    text-align: center;
+    font-size: 22px;
+    color: var(text-main);
+
+}
+.section-1 .textarea .amount{
+    color: #86868b;
+    margin-top: 1.5rem;
+    font-size: 22px;
+}
+.section-1 .textarea .larger{
+    width: 73px;
+    height: 43px;
+    padding: 12px 12px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+/* theme-section */
+
+.imageHolder{
+    margin-top: 3rem;
+}
+img{
+    max-width: 900px;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 1rem;
+    cursor: pointer;
+}
+.btn:active{
+    outline: 2px solid navy;
+    outline-offset: 3px;
+
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+#green{
+    background-color: #394c38;
+}
+#pink{
+    background-color: #faddd7;
+}
+#blue{
+    background-color: #276787;
+}
+#midnight{
+    background-color: #232a31;
+}
+#starlight{
+    background-color: #cecbc8;
+}
+#red{
+    background-color: #bf0013;
+}
+
+
+
+
+
